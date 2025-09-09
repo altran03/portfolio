@@ -5,22 +5,17 @@ const Footer = () => {
   const socialLinks = [
     {
       name: 'GitHub',
-      url: 'https://github.com/alvintran',
+      url: 'https://github.com/altran03',
       icon: 'fab fa-github'
     },
     {
       name: 'LinkedIn',
-      url: 'https://linkedin.com/in/alvintran',
+      url: 'https://www.linkedin.com/in/tralvin',
       icon: 'fab fa-linkedin'
     },
     {
-      name: 'Twitter',
-      url: 'https://twitter.com/alvintran',
-      icon: 'fab fa-twitter'
-    },
-    {
       name: 'Email',
-      url: 'mailto:alvin@example.com',
+      url: 'mailto:alvin.tran127@gmail.com',
       icon: 'fas fa-envelope'
     }
   ];
