@@ -23,10 +23,20 @@ const Home = () => {
         </div>
 
         <div className="cta-section">
+          <a 
+            href="/resume.pdf" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="resume-btn"
+          >
+            <i className="fas fa-file-pdf"></i>
+            View Resume
+          </a>          
           <Link href="/portfolio" className="portfolio-btn">
             View Portfolio
             <i className="fas fa-arrow-right"></i>
           </Link>
+
         </div>
       </section>
     </main>

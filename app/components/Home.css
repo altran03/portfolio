@@ -47,6 +47,10 @@
 /* CTA section */
 .cta-section {
   margin-top: 2rem;
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 .portfolio-btn {
@@ -79,6 +83,36 @@
   transform: translateX(4px);
 }
 
+.resume-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  background-color: transparent;
+  color: #1a1a1a;
+  padding: 1rem 2rem;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 1.1rem;
+  transition: all 0.3s ease;
+  border: 2px solid #1a1a1a;
+}
+
+.resume-btn:hover {
+  background-color: #1a1a1a;
+  color: white;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+.resume-btn i {
+  transition: transform 0.3s ease;
+}
+
+.resume-btn:hover i {
+  transform: scale(1.1);
+}
+
 /* Responsive design */
 @media (max-width: 768px) {
   .name {
@@ -97,9 +131,15 @@
     font-size: 1rem;
   }
   
-  .portfolio-btn {
+  .portfolio-btn,
+  .resume-btn {
     padding: 0.875rem 1.5rem;
     font-size: 1rem;
+  }
+  
+  .cta-section {
+    flex-direction: column;
+    align-items: center;
   }
 }
 
